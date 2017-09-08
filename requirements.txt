@@ -1,0 +1,4 @@
+ipywidgets
+notebook
+poliastro>=0.7.0b1,<0.8
+-e git+https://github.com/Juanlu001/astropy.git@ecliptic-precision#egg=astropy
