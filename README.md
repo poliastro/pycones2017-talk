@@ -10,12 +10,9 @@ http://nbviewer.jupyter.org/format/slides/github/poliastro/pycones2017-talk/blob
 $ pip install -r requirements.txt
 ```
 
-## Estructura
+Para regenerar las diapositivas [compatibles con ausencia de conexión a Internet](https://github.com/jupyter/nbconvert/issues/91#issuecomment-283736634):
 
-1. Presentación (3 minutos)
-2. Mecánica orbital (3 minutos)
-3. poliastro (2 minutos)
-4. Cuerpos cercanos (4 minutos)
-5. Demo NEOS (6 minutos)
-6. SOCIS y conclusiones (2 minutos)
-
+```
+$ jupyter nbconvert ¡Atrapa\ ese\ asteroide\ con\ poliastro\!.ipynb --to slides --reveal-prefix "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0"
+$ python -m http.server
+```
