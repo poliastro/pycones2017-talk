@@ -13,6 +13,6 @@ $ pip install -r requirements.txt
 Para regenerar las diapositivas [compatibles con ausencia de conexión a Internet](https://github.com/jupyter/nbconvert/issues/91#issuecomment-283736634):
 
 ```
-$ jupyter nbconvert ¡Atrapa\ ese\ asteroide\ con\ poliastro\!.ipynb --to slides --reveal-prefix "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0"
+$ jupyter nbconvert "¡Atrapa ese asteroide con poliastro!.ipynb" --to slides --reveal-prefix "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0"
 $ python -m http.server
 ```
