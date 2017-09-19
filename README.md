@@ -2,7 +2,7 @@
 
 Charla "¡Atrapa ese asteroide con poliastro!" en la PyConES 2017.
 
-http://nbviewer.jupyter.org/format/slides/github/poliastro/pycones2017-talk/blob/master/%C2%A1Atrapa%20ese%20asteroide%20con%20poliastro%21.ipynb#/6
+http://nbviewer.jupyter.org/format/slides/github/poliastro/pycones2017-talk/blob/master/%C2%A1Atrapa%20ese%20asteroide%20con%20poliastro%21.ipynb
 
 ## Instalación
 
